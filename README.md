@@ -44,7 +44,3 @@ these.
 - `lab/render_term2.py` — the terminal-screenshot renderer (handles ANSI stripping and `ffuf`'s `\r`-joined progress-line noise).
 - `screenshots/` — the real screenshots embedded in the post (nmap, AXFR, NS/A record lookups, ffuf vhost discovery, ffuf directory discovery, curl status codes).
 - `terminal-output/` — the raw captured command output behind each screenshot.
-
-## Write-up
-
-Published as a Claude Doc: https://claude.ai/artifact/SZV63bnSQHEjeCxPctnqDi

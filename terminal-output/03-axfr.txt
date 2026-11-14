@@ -1,0 +1,6 @@
+;; Connection to 8.8.8.8#53(8.8.8.8) for anthropic.com failed: connection refused.
+;; no servers could be reached
+;; Connection to 8.8.8.8#53(8.8.8.8) for anthropic.com failed: connection refused.
+;; no servers could be reached
+;; Connection to 8.8.8.8#53(8.8.8.8) for anthropic.com failed: connection refused.
+;; no servers could be reached

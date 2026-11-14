@@ -1,0 +1,15 @@
+corp.local.		86400	IN	SOA	ns1.corp.local. admin.corp.local. 2026111201 3600 1800 604800 86400
+corp.local.		86400	IN	NS	ns1.corp.local.
+corp.local.		86400	IN	A	127.0.0.1
+blog.corp.local.	86400	IN	A	127.0.0.1
+dev.corp.local.		86400	IN	A	127.0.0.1
+mail.corp.local.	86400	IN	A	127.0.0.1
+ns1.corp.local.		86400	IN	A	127.0.0.1
+vpn.corp.local.		86400	IN	A	127.0.0.1
+www.corp.local.		86400	IN	A	127.0.0.1
+corp.local.		86400	IN	SOA	ns1.corp.local. admin.corp.local. 2026111201 3600 1800 604800 86400
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#5353(127.0.0.1) (TCP)
+;; WHEN: Thu Nov 12 11:27:17 WAT 2026
+;; XFR size: 10 records (messages 1, bytes 297)
+

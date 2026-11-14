@@ -1,0 +1,15 @@
+$TTL 86400
+@   IN  SOA ns1.corp.local. admin.corp.local. (
+        2026111201 ; serial
+        3600       ; refresh
+        1800       ; retry
+        604800     ; expire
+        86400 )    ; minimum
+@       IN  NS  ns1.corp.local.
+@       IN  A   127.0.0.1
+ns1     IN  A   127.0.0.1
+www     IN  A   127.0.0.1
+blog    IN  A   127.0.0.1
+dev     IN  A   127.0.0.1
+mail    IN  A   127.0.0.1
+vpn     IN  A   127.0.0.1

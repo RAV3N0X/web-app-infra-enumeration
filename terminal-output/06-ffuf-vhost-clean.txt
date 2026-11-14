@@ -1,0 +1,33 @@
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://127.0.0.1:8888/
+ :: Wordlist         : FUZZ: /tmp/subs.txt
+ :: Header           : Host: FUZZ.corp.local
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 20
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 12
+________________________________________________
+
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kfoobar123               [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kadmin-panel             [Status: 200, Size: 35, Words: 6, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kwww                     [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kblog                    [Status: 200, Size: 103, Words: 17, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kvpn                     [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kdev                     [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kmail                    [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kftp                     [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2Kstaging                 [Status: 200, Size: 10, Words: 2, Lines: 2, Duration: 0ms][0m
+[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::[2K:: Progress: [9/9] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errors: 0 ::

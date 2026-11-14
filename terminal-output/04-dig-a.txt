@@ -1,0 +1,1 @@
+www.corp.local.		86400	IN	A	127.0.0.1

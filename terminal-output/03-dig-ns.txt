@@ -1,0 +1,1 @@
+corp.local.		86400	IN	NS	ns1.corp.local.

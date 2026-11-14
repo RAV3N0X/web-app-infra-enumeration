@@ -1,0 +1,4 @@
+GET /              -> 200
+GET /admin/        -> 200
+GET /.git/HEAD     -> 200
+GET /nosuchpage/    -> 404
